@@ -25,6 +25,8 @@ class Queries(db.Model):
     timestamp = db.Column(db.DateTime, default=datetime.datetime.utcnow)
 with app.app_context():
     db.create_all()
+
+    
 #from flask import get_response
 class translator:
     api_url = "https://translate.googleapis.com/translate_a/single"
