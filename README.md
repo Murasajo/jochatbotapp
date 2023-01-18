@@ -84,6 +84,7 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+                                  
 Welcome to our government institution's chatbot project! Our goal with this project is to provide a convenient and user-friendly way for visitors to access important information on our website.
 
 This chatbot has been trained to assist visitors in finding the information they need quickly and efficiently. It can provide information on a wide range of topics, such as government services, policies, and programs. Additionally, it can also provide links to specific pages on our website, such as forms and applications, contact information, and upcoming events.
@@ -93,11 +94,20 @@ One of the key features of this chatbot is its ability to understand natural lan
 We are constantly updating the chatbot's knowledge base to ensure that it is providing the most accurate and up-to-date information possible. This chatbot is also available 24/7, so visitors can access information whenever it is convenient for them.
 
 We believe that this chatbot will greatly enhance the user experience on our website and make it easier for visitors to find the information they need. We hope that you find it helpful and we would appreciate your feedback.
-
-
-
-
-
+                                       
+This section should list all the packages and frameworks used to develop the chatbot
+               
+*Python
+*Flask
+*Pytorch
+*Gunicorn
+*Flask SQL Alchemy
+*Language Detect/Detect lang
+*NLTK
+*Numpy                                       
+*Psycopg2                                 
+                                       
+                                       
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
@@ -112,6 +122,19 @@ Use the `BLANK_README.md` to get started.
 
 
 ### Built With
+
+This section should list all the packages and frameworks used to develop the chatbot
+               
+*Python
+*Flask
+*Pytorch
+*Gunicorn
+*Flask SQL Alchemy
+*Language Detect/Detect lang
+*NLTK
+*Numpy                                       
+*Psycopg2                                 
+            
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
@@ -131,16 +154,8 @@ This section should list any major frameworks/libraries used to bootstrap your p
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Use the following commands to install and run the chatbot application
 
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
 
 ### Installation
 
