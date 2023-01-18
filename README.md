@@ -183,8 +183,8 @@ After running the gunicorn command open your browser at http://127.0.0.1/5000 to
 ## Roadmap
 
 - [x] Add Database
-- [ ] Host on Render
-- [ ] Add Language Detect
+- [x] Host on Render
+- [x] Add Language Detect
 - [ ] Deploy using Docker
 - [ ] Add Voice interaction
 
