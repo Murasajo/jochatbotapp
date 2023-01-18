@@ -95,18 +95,7 @@ We are constantly updating the chatbot's knowledge base to ensure that it is pro
 
 We believe that this chatbot will greatly enhance the user experience on our website and make it easier for visitors to find the information they need. We hope that you find it helpful and we would appreciate your feedback.
                                        
-This section should list all the packages and frameworks used to develop the chatbot
-               
-*Python
-*Flask
-*Pytorch
-*Gunicorn
-*Flask SQL Alchemy
-*Language Detect/Detect lang
-*NLTK
-*Numpy                                       
-*Psycopg2                                 
-                                       
+                       
                                        
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
@@ -159,20 +148,22 @@ Use the following commands to install and run the chatbot application
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/Murasajo/jochatbotapp.git
    ```
-3. Install NPM packages
+2. Go into the directory
    ```sh
-   npm install
+   cd jochatbotapp
    ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
+3. Install pip packages
+   ```sh
+   pip install -r requirements.txt
+   ```
+4. Start the flask app using gunicorn 
+    ```sh
+   gunicorn app:app
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
