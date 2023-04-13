@@ -34,7 +34,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">MY CHATBOT App</h3>
+  <h3 align="center">MY BRD CHATBOT App</h3>
 
   <p align="center">
     A conversation chatbot to server information and machine translation!
